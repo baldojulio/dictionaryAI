@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "name": "Dictionary",
+    "description": "Dictionary powered by AI",
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "background": {
+        "service_worker": "src/background.mjs"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "contextMenus",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://generativelanguage.googleapis.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["src/content.mjs"],
+            "css": ["src/style.css"]
+        }
+    ]
+}
