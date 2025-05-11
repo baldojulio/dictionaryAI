@@ -24,3 +24,10 @@ Traditional dictionaries offer static definitions. This AI-powered dictionary of
 *   Open the extension files and add your API key in the appropriate place (see `src/background.mjs`).
 *   In your browser, go to the Extensions page (`chrome://extensions/` in Chrome), enable "Developer mode", and click "Load unpacked".
 *   Select the folder containing the extension files to add it to your browser.
+
+## Usage
+<p align="center">
+  <video src="usage.mov" controls width="480">
+    Your browser does not support the video tag.
+  </video>
+</p>
