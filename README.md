@@ -27,7 +27,5 @@ Traditional dictionaries offer static definitions. This AI-powered dictionary of
 
 ## Usage
 <p align="center">
-  <video src="usage.mov" controls width="480">
-    Your browser does not support the video tag.
-  </video>
+  <img src="demo.gif" alt="Dictionary Extension Demo" width="400">
 </p>
