@@ -1,4 +1,4 @@
-const API_KEY = "";
+const API_KEY = "AIzaSyBNuTa0j3tJffuDYm-E36TMWyRBhZWVoQA";
 const ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 const URL = `${ENDPOINT}?key=${API_KEY}`;
 
@@ -20,6 +20,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
     2. One short sentence: an everyday example (maximum 12 words).
     3. Use only common words. Avoid difficult grammar.
     4. No extra words before or after the two sentences — no greetings or exclamations.`;
+
     let answer = "";
 
     try {
