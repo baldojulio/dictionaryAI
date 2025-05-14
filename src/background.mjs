@@ -15,7 +15,11 @@ chrome.runtime.onInstalled.addListener(() =>
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
     if (info.menuItemId !== "defineSelection") return;
 
-    const prompt = `Define the following word or phrase in clear and simple British English. Be concise and go straight to the point. Do not add anything extra. The term is: ${info.selectionText}`;
+    const prompt = `You are a friendly British English teacher. Explain ${info.selectionText} in very easy British English (A1 level).
+    1. One short sentence: the meaning (maximum 12 words).
+    2. One short sentence: an everyday example (maximum 12 words).
+    3. Use only common words. Avoid difficult grammar.
+    4. No extra words before or after the two sentences — no greetings or exclamations.`;
     let answer = "";
 
     try {
