@@ -1,7 +1,7 @@
 #define-tooltip {
     margin: 0;
     position: absolute;
-    width: max-content;
+    max-width: 300px;
     padding: 8px;
     background: #f8fafc;
     color: #111827;
