@@ -27,5 +27,5 @@ Traditional dictionaries offer static definitions. This AI-powered dictionary of
 
 ## Usage
 <p align="center">
-  <img src="demo.gif" alt="Dictionary Extension Demo" width="400">
+  <img src="demo.gif" alt="Dictionary Extension Demo" width="900">
 </p>
